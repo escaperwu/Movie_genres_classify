@@ -34,6 +34,13 @@ pip install -r requirements.txt
 ## Training
 To train the models, you can use the provided training scripts. Here are the steps:
 
+first process the data:
+```bash
+python data_loader.py
+```
+```bash
+python data.py
+```
 1. BERT Model
 ```bash
 python BERT_train.py
